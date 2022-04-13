@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+ <img width="200px" src="https://avatars.githubusercontent.com/u/87428056?s=200&v=4" align="center" alt="pandora-code" />
+ <h2 align="center">Com usar o React Player?</h2>
+ <p align="center">Vou apresentar para vocês como usar o React Player no projeto.</p>
+ <p align="center"> :warning: IN PROGRESS :warning: </p>
+</p>
 
-## Getting Started
+O projeto foi desenvolvido em NextJS + Typescript.
 
-First, run the development server:
+
+## Executar o Projeto
+
+O projeto só é executável na versão 16 do node.
+
+### Instalação das Dependências
+
+Para instalar as dependências do projeto, basta executar o comando abaixo:
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+### Executar o Projeto
+
+Para executar o projeto no modo de desenvolvimento, basta executar o script abaixo:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> A porta padrão é a 3000.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Dependências do Projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Abaixo foram listadas as principais bibliotecas que compõe esse projeto.
+### Bibliotecas de Mídia
 
-## Learn More
+* [React Player](https://www.npmjs.com/package/react-player) é um componente React para reproduzir uma variedade de URLs,
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Estilização e Componentes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* [Theme-ui](https://theme-ui.com) é uma biblioteca para criar interfaces de usuário temáticas com base em princípios de design baseados em restrições.
 
-## Deploy on Vercel
+* [Emotion/styled](https://emotion.sh/docs/styled) é uma biblioteca projetada para escrever estilos CSS com JavaScript.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
